@@ -1,4 +1,4 @@
-imgToDominant.py iterates through a given comic on tapas.io,
+colorScraper.py iterates through a given comic on tapas.io,
 downloads each page from each chapter, performs k-means clustering on
 that page, and saves the resulting colors in an image file.
 
@@ -14,6 +14,7 @@ colorScraperParallelClearer.py and colorScraperParallelEfficient.py use
 multiprocessing.dummy's Pool to download and process the pages in parallel,
 resulting in a 50% speedup using only my computer's two cores - using more may
 be even better for you. ...Clearer.py has more helpful console messages, but
-...Efficient.py runs quicker.
+...Efficient.py runs quicker. These should be considered the primary release 
+for this repo.
 
 Author: Jonathan Gaul
