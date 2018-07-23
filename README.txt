@@ -1,3 +1,0 @@
-imgToDominant.py iterates through a given comic on tapas.io, downloads each page from each chapter, performs k-means clustering on that page, and saves the resulting colors in an image file. The user parameters to edit are initialId for the first chapter of the desired comic, the number of dominant colors to pull out, the width of each column of color in the desired image in pixels, and the thickness of each page's bar of pixels. Adding colors to be blacklisted can help remove signal from noise if each page has a color that is not desired to quantify.
-
-Author: Jonathan Gaul
